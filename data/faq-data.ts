@@ -10,7 +10,7 @@ type FAQPanel = {
 	blocks: FAQBlock[];
 };
 
-type FAQData = {
+export type FAQData = {
 	heading: string;
 	panels: FAQPanel[];
 };
